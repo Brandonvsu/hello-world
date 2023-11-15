@@ -1,0 +1,23 @@
+echo "# hello-world" >> README.md
+git init
+git add README.md
+
+git branch -v main
+  git remote add origin git@github.com:Brandonvsu/hello-world.git
+  git push origin master
+
+git checkout -b development
+  *developement
+   git diff master..development
+git add CONTRIBUTION.md
+  git commmit -m "Add CONTRIBUTION.md file" 
+git log -- oneline
+git checkout master
+git merge development
+
+git checkout -b refactor
+git chekcout master
+git checkout refactor
+git diff master..refactor
+git checkout master
+git merge refactor
